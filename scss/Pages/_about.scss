@@ -138,6 +138,7 @@
 #AboutServices{
     background: #e0e0e0;
     padding-top: 3rem;
+    padding-bottom: 3rem;
     .about-service-header{
         text-align: end;
     }
@@ -163,8 +164,9 @@
              -7px -7px 16px #f4f4f4;
             }
             .text-small{
-                color: #383838 !important;
-                
+                color: #1a1a1a;
+                text-shadow: 1px -1px 3px #8d8d8d1f,
+                -1px 1px 3px #ffffff86;
             }
      }
 }

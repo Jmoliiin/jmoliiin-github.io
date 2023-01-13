@@ -64,6 +64,16 @@ img {
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
+.active {
+  border: #f59583 solid 1px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  border-right: none;
+  border-left: none;
+}
+
 a {
   text-decoration: none;
 }
@@ -337,24 +347,26 @@ a {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
-#AboutInformation .about-information-header {
+#AboutInformation img {
+  display: none;
+}
+
+.about-information-header {
   text-align: end !important;
   margin-bottom: 2rem;
 }
-#AboutInformation .about-information-text p {
+
+.about-information-text p {
   font-size: 16px;
   margin-bottom: 0rem;
 }
-#AboutInformation .about-information-text h5 {
+.about-information-text h5 {
   font-size: 20px;
   margin-bottom: 1rem;
 }
-#AboutInformation .about-information-text .blue-button {
+.about-information-text .blue-button {
   margin-top: 3rem;
   margin-bottom: 3rem;
-}
-#AboutInformation img {
-  display: none;
 }
 
 #AboutCompany {
@@ -423,7 +435,7 @@ a {
   }
 }
 @media (min-width: 992px) {
-  #AboutInformation img {
+  #AboutInformation img, #Investment img {
     display: block;
     height: 100%;
     border-radius: 16px;
@@ -476,6 +488,19 @@ a {
     width: 18rem !important;
   }
 }
+#Investment {
+  background-color: rgba(38, 91, 122, 0.0196078431);
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+}
+#Investment .blue-button {
+  margin-top: 0 !important;
+}
+#Investment img {
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
 .contact-text {
   color: #f59583 !important;
   font-weight: bold;

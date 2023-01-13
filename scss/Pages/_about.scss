@@ -94,6 +94,10 @@
     padding:1rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
+    img{
+        display: none;
+    }
+}
     .about-information-header{
         text-align: end !important;
         margin-bottom: 2rem;
@@ -115,12 +119,10 @@
         }
         
     }
-    img{
-        display: none;
-    }
     
     
-}
+    
+
 
 #AboutCompany{
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
@@ -215,7 +217,7 @@
 }
 @media(min-width:$tablet){
 
-    #AboutInformation{
+    #AboutInformation,#Investment{
         //padding-left: 3rem !important;
 
         img{

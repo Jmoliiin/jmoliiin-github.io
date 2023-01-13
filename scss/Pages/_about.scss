@@ -15,11 +15,8 @@
         height: 20rem;
         background-color: $primaryColor ;
         z-index:1;
-        position: relative;
-
-        
-    }
-      
+        position: relative;   
+    }   
 }
 
 #Team{
@@ -27,7 +24,6 @@
     background-color: rgb(255, 255, 255);
     padding-bottom: 4rem;
     .about-box-container {
-        
         // z-index: 2;
         // position: absolute;
         // top: 19rem;
@@ -50,7 +46,6 @@
             // column-gap: 2px;
         }
         .card{
-            
             margin-bottom: 1rem;
             //display: inline-block;
              height: 25rem;
@@ -59,9 +54,7 @@
             border-radius: 16px;
             box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
             backdrop-filter: blur(8px);
-            -webkit-backdrop-filter: blur(8px);
-    
-           
+            -webkit-backdrop-filter: blur(8px);  
         .card-body{
             margin-top: 0.1rem;
             //padding-left: 1.5rem;
@@ -85,6 +78,7 @@
         }
     }
 }
+
 #AboutInformation{
     background-color: #265b7a05 ;
     height: auto;
@@ -126,9 +120,12 @@
 
 #AboutCompany{
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    .contentBox{
+        padding: 2rem 0rem 2rem 0rem;
+    }
     .content-box{
         
-        padding:2rem !important;
+        
         img{
             //!ADD boxShadow
             //box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 80px 0px;
@@ -188,15 +185,10 @@
 }
 
 @media(min-width:$larg-phone){
-
-    
-   
-
     .card-body{
         margin-top: 1rem;
         //padding-left: 1.5rem;
-        
-        
+           
     }
     .card-deck{
         justify-content: space-between;
@@ -216,10 +208,8 @@
     }
 }
 @media(min-width:$tablet){
-
     #AboutInformation,#Investment{
         //padding-left: 3rem !important;
-
         img{
             display: block;
             height: 100%;
@@ -227,14 +217,11 @@
             box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
         }
     }
-    
         .blue-button{
             margin-bottom: 0rem !important;
             margin-top: 1rem !important;
             
         }
-        
-        
         .about-information-box{
             display: flex;
             justify-content: space-evenly;
@@ -250,17 +237,10 @@
         .about-information-img{
             width: 50%;
             padding: 2rem;
-
-            img{
-                
-            }
         }
         
-    
     .card{
-        
         width: 14rem !important;
-        
         h5{
             font-size: $small-heading !important;
         }
@@ -272,29 +252,23 @@
             font-size: $medium-text !important;
         }
         .card-img-top{
-            height: 20rem !important ;
-            
+            height: 20rem !important ;  
         }
     }
 }
 @media(min-width:$desktop){
-    
     .about-information-text{
         .h5{
             font-size: $Medium-heading !important;
         }    
     }
-    
-
 }
 
 @media(min-width:$desktop-large){
     .blue-button{
-        margin-top: 6rem !important;
-        
+        margin-top: 6rem !important;  
     }
     .card{
         width: 18rem !important;
-        
     }
 }

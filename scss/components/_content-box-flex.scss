@@ -1,31 +1,19 @@
 .contentBox{
     background-color: rgb(197, 159, 136)(255, 255, 255);
-    // color: antiquewhite;
-    // margin-bottom: 4rem;
-    // margin-top: 4rem;
-    padding: 2rem 0rem 2rem 0rem;
-    
-    
-    
+    padding: 0rem 0rem 2rem 0rem;
     .content-box{
-        // box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-        // box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-        // box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         height: auto;
         padding-bottom: 3rem;
         // border: solid 2px red !important;
+        
         .content-box-header{
             
             margin-bottom: 1.5rem;
-            height: 20rem;
+            height: 10rem;
             color: rgb(255, 255, 255);
             position: relative;
             .content-box-img{
-                
-                // box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-                //TA BORT OCH BYT TILL IMG
-                //background-color: $grayBackground;
-                height: 20rem;
+                height: 10rem;
                 position: absolute;
                 z-index: 0;
                 top: 0;
@@ -57,4 +45,37 @@
         }
         
     }
+}
+
+@media(min-width:$small-phone){
+
+}
+
+@media(min-width:$larg-phone){
+    .contentBox{
+        .content-box{
+            .content-box-header{
+                height: 10rem;
+                margin-bottom: 6rem;
+                .content-box-img{
+                    height: 15rem;
+                }
+                .content-box-rubrik{
+                    bottom:-2rem;
+                }
+            }
+        }
+    }
+}
+@media(min-width:$tablet){
+    
+}
+@media(min-width:$desktop){
+    .contentBox{
+        padding: 2rem 0rem 2rem 0rem;
+    }
+}
+
+@media(min-width:$desktop-large){
+   
 }

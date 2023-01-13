@@ -1,76 +1,37 @@
-
-
-//      INDEX SITE
+// INDEX SITE
 #SLIDER{
     width: 100%;
     background-color: red;
     .row{
         background-color: #000101;
         width: inherit;
-        
         .slider-1{
-            
             //TA BORT OCH BYT TILL IMG
             background-color: $grayBackground;
-            height: 82vh;
+            height: 52vh;
             // margin-bottom: 1rem;
             position: relative;
             z-index: 1;
         
             .slider-text{
+                padding: 1rem;
+                border-radius: 1rem;
                 color: white;
                 position: absolute;
                 z-index: 2;
-                bottom:10rem;
-                left: 5rem;    
+                bottom:1rem;
+                left: 0rem;   
+                background-color: #00000080; 
                 button{
                     margin-top: 1rem;
                     margin-left: 0rem;
                 }
-        
-        
-        
-        
-        
             }
         }
     }
-    
 }
 
 
-
-
-
-.showcase-contact-us{
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 5rem;
-    background-color: $ligghtgraybackground;
-}
-.showcase-social{
-    background-color: $primaryColor;
-    height: 5vh;
-    
-    .container{
-        height: inherit;
-        .showcase-social-links{
-            display: flex;
-            height: inherit;
-            justify-content:space-between;
-            align-items: center;
-
-            i{
-                font-size: 2rem;
-                color: rgb(205, 216, 226);
-            }
-    
-        }
-    }
-    
-}
 #whatWeDo{
     background-color: $primaryColor;
     height: auto;
@@ -80,14 +41,12 @@
        background: $primaryColor;
        box-shadow: inset 9px 9px 20px #1d465e,
        inset -9px -9px 20px #2f7096;
-
        // border-radius: 13px;
        // background: #3c7190;
        // box-shadow: inset 9px 9px 20px #2e576f,
        // inset -9px -9px 20px #4a8bb1;
        
        &:hover{
-           
            border-radius: 13px;
            background: #265b7a;
            box-shadow:  5px 5px 10px #1d445c,
@@ -112,8 +71,70 @@
             //     color: $thirdColor;
                 
             // }
-    }
+        }
     }
 }   
 
+@media(min-width:$small-phone){
 
+}
+
+@media(min-width:$larg-phone){
+    #SLIDER{
+        .row{
+            .slider-1{
+                .slider-text{
+                    left: 3rem;  
+                }
+            }
+        }
+    }
+}
+@media(min-width:$tablet){
+    
+}
+@media(min-width:$desktop){
+        #SLIDER{
+            .row{
+                .slider-1{
+                    height: 82vh;
+                    .slider-text{
+                        bottom:10rem;
+                        left: 5rem;  
+                    }
+            }
+            
+        }
+    }
+}
+
+@media(min-width:$desktop-large){
+   
+}
+
+
+// .showcase-contact-us{
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     height: 5rem;
+//     background-color: $ligghtgraybackground;
+// }
+// .showcase-social{
+//     background-color: $primaryColor;
+//     height: 5vh;
+//     .container{
+//         height: inherit;
+//         .showcase-social-links{
+//             display: flex;
+//             height: inherit;
+//             justify-content:space-between;
+//             align-items: center;
+
+//             i{
+//                 font-size: 2rem;
+//                 color: rgb(205, 216, 226);
+//             }
+//         }
+//     } 
+// }

@@ -1,0 +1,29 @@
+.smal-box{
+    justify-content: space-between;
+   .smal-box-item{
+       .smal-box-item-content{
+            height: 6rem;
+            width: auto;
+            margin: 0.9rem;
+           
+           &:hover{
+               .text-small{
+                color: $thirdColor;
+               }
+               
+           }
+           a{
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               height: inherit;
+               width: 100%;
+               color: black;
+               
+           }
+           
+           
+       }
+       
+   }
+}

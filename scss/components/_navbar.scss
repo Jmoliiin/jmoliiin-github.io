@@ -1,0 +1,231 @@
+
+
+
+
+
+.contact-text {
+    color: $thirdColor !important;
+    font-weight: bold;
+}
+
+//      NAVBAR
+.navbar {
+    height: 5rem;
+    background-color: $backgrundColor;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 0px;
+
+    position: fixed;
+    z-index: 3;
+
+    .offcanvas {
+        color: $navbarHeaderColor;
+        height: 100vh;
+
+        .offcanvas-header {
+            height: 7rem;
+
+            .offcanvas-title {
+                margin-top: 1rem;
+            }
+        }
+
+        .offcanvas-body {
+            padding: 0px;
+            //background: rgba(34, 34, 34, 0.5);
+
+            .navbar-nav {
+
+                /*Every box containing the link both collaps and displayed*/
+                .nav-item {
+                    //border: 1px solid red;
+
+                    &:hover {
+                        border-radius: 8px 8px 0px 0px;
+                        background-color: $backgrundColorHover;
+                    }
+
+                    /*The links in box*/
+                    .nav-link {
+                        color: $navbarLinksColor;
+                        padding-left: 1rem;
+                        font-size: 18px;
+                        //background-color: aqua;
+
+                        margin: 0px;
+
+                        &:hover {
+                            color: $navbarLinksHover;
+                        }
+
+                    }
+                }
+
+                /*Every nav-items that has dropdowns (both collaps and displayed)*/
+                .dropdown {
+
+                    /*The box of the dropdown*/
+                    .dropdown-menu {
+                        background-color: rgba(134, 134, 134, 0.082);
+                        border-radius: 0px 0px 8px 8px;
+
+                        /* each items in dropdown*/
+                        .dropdown-item {
+                            margin: 0px;
+                            padding-left: 3rem;
+
+                            &:hover {
+                                background-color: #00000000;
+
+                            }
+
+                            /*Links in dropdowm*/
+                            .nav-link {
+                                font-size: 16px;
+                                padding: 8px;
+                                margin: 0px;
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+    .navbar-brand {
+
+        img {
+            height: 5rem;
+            width: auto;
+            position: absolute;
+            z-index: 4;
+            top: 0;
+        }
+    }
+}
+
+@media(min-width:$larg-phone){
+    .navbar{
+        
+        .pe-1{
+            padding-right: 3rem !important;
+        }
+        .ps-1{
+            padding-left: 3rem !important;
+        }
+    }
+
+
+}
+
+@media (max-width:1200px) {
+
+    /*OFF Canvas Meny*/
+
+    #offcanvasNavbar {
+        // background: rgba( 0, 0, 0, 0.5 );
+        // box-shadow: 0 8px 32px 0 rgba(170, 171, 177, 0.37);
+        // backdrop-filter: blur( 5px );
+        // -webkit-backdrop-filter: blur( 5px );
+        // border-radius: 0px;
+
+        background: $backgrundColor;
+        box-shadow: 0 8px 32px 0 rgba(170, 171, 177, 0.37);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(1px);
+        border-radius: 70px 0px 0px 0px;
+    }
+}
+
+
+/*Navbar for desktops*/
+@media (min-width:1200px) {
+
+    .navbar{
+        height: 7rem !important;
+        img {
+            height: 7rem !important;
+
+        }
+    }
+    .container-fluid {
+        max-width: 1600px;
+    }
+
+    /*Remove background on tablet menu*/
+    .offcanvas-body {
+        margin-top: 4rem;
+        margin-right: 18px;
+
+        .navbar-nav {
+            height: 2.9rem;
+            justify-content: stretch;
+            align-items: flex-end;
+
+            .nav-item {
+                margin-left: 2rem;
+                font-size: 18px;
+
+                /*Display dropdown menu on hover*/
+                &:hover {
+                    border-radius: 8px 8px 0px 0px;
+                    background-color: #0a0a0a1e;
+                }
+
+                .nav-link {
+                    padding-left: 0px !important;
+                    padding: 5px 8px 5px 8px !important;
+
+                }
+
+                .dropdown-menu {
+                    margin-top: 0px !important;
+                    background-color: $backgrundColorHover  !important;
+                    box-shadow: 0 8px 32px 0 rgba(14, 15, 32, 0.37);
+                    backdrop-filter: blur(5px);
+                    -webkit-backdrop-filter: blur(5px) !important;
+                    display: none;
+
+                    .dropdown-item {
+                        margin: 0px;
+                        padding-left: 0.5rem !important;
+
+                        &:hover {
+                            background-color: #0a0a0a00;
+
+
+                        }
+
+                        /*Links in dropdowm*/
+                        .nav-link {
+                            font-size: 16px;
+                            padding: 8px;
+                            margin: 0px;
+
+                        }
+                    }
+
+                }
+
+                &:hover {
+
+                    .dropdown-menu {
+
+                        display: inline-block;
+
+
+                    }
+                }
+
+
+            }
+        }
+
+
+    }
+
+}

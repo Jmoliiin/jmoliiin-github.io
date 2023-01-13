@@ -1,0 +1,298 @@
+// @include for-desktop{
+//     background-color: #b90a30;
+// }
+
+//! TEST NEW
+
+/* BANNER*/
+#AboutBanner{
+    height: 20rem;
+    //border: 1px solid red;
+
+    .about-banner{
+        padding-top: 10rem;
+        margin-bottom: -1px;
+        height: 20rem;
+        background-color: $primaryColor ;
+        z-index:1;
+        position: relative;
+
+        
+    }
+      
+}
+
+#Team{
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 4rem;
+    .about-box-container {
+        
+        // z-index: 2;
+        // position: absolute;
+        // top: 19rem;
+        // left: 0;
+        //width: 100%;
+        // img{
+        //     z-index: 1 !important;
+        //     position: absolute;
+        //     width: 100%;
+        //     height: 25rem !important;
+        //     top: 0;
+            //background-color: rgb(223, 143, 143);
+            
+        // }
+        .card-deck{
+            display: flex;
+            justify-content: space-around;
+            align-items:flex-start;
+            flex-wrap:wrap;
+            // column-gap: 2px;
+        }
+        .card{
+            
+            margin-bottom: 1rem;
+            //display: inline-block;
+             height: 25rem;
+            width: 15rem ;
+            background: rgba(255, 255, 255, 0.89);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+    
+           
+        .card-body{
+            margin-top: 0.1rem;
+            //padding-left: 1.5rem;
+            h5{
+                font-size: $small-small-heading;
+            }
+            p{
+                font-size: $small-text;
+            }
+            .card-text{
+                font-size: $small-text;
+            }
+        }
+        .card-img-top{
+            //width:inherit;
+            height: 11rem !important;
+            object-fit:cover;
+            padding: 0.6rem;
+            border-radius: 1rem;
+        }
+        }
+    }
+}
+#AboutInformation{
+    background-color: #265b7a05 ;
+    height: auto;
+    //background-color:  #32617c2c;
+    // border: solid 1px blue; 
+    //margin-top: 2rem;
+    padding:1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    .about-information-header{
+        text-align: end !important;
+        margin-bottom: 2rem;
+    }
+    .about-information-text{
+        
+        
+        p{
+            font-size: $medium-text;
+            margin-bottom: 0rem;
+        }
+        h5{
+            font-size: $small-heading;
+            margin-bottom: 1rem;
+        }
+        .blue-button{
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+        }
+        
+    }
+    img{
+        display: none;
+    }
+    
+    
+}
+
+#AboutCompany{
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    .content-box{
+        
+        padding:2rem !important;
+        img{
+            //!ADD boxShadow
+            //box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 80px 0px;
+        }
+        // box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    }
+}
+
+
+#AboutServices{
+    background: #e0e0e0;
+    padding-top: 3rem;
+    .about-service-header{
+        text-align: end;
+    }
+    .smal-box{
+        height: auto;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        //border: solid 1px;
+    }
+    .smal-box-item{
+        padding:0rem;
+        //border: solid 1px;
+        
+    }
+    .smal-box-item-content{
+        
+        height: 4rem;
+        //border: solid 1px;
+        border-radius: 10px;
+        background: #e0e0e0;
+        box-shadow: inset 7px 7px 16px #cccccc,
+            inset -7px -7px 16px #f4f4f4;
+            &:hover{
+                border-radius: 10px;
+                background: #e0e0e0;
+                box-shadow:  7px 7px 16px #cccccc,
+             -7px -7px 16px #f4f4f4;
+            }
+            a{
+                color: #383838 !important;
+                h5{
+                    font-size: $medium-text;
+                }
+                
+            }
+    }
+}
+
+
+@media(min-width:$small-phone){
+    .card{
+        width: 14rem !important;
+        height: 22rem !important;
+    }
+}
+
+@media(min-width:$larg-phone){
+
+    
+   
+
+    .card-body{
+        margin-top: 1rem;
+        //padding-left: 1.5rem;
+        
+        
+    }
+    .card-deck{
+        justify-content: space-between;
+        align-items:flex-start;
+        // column-gap: 2px;
+    }
+    .card{
+        width: 10rem !important;
+        height: 25rem !important;
+        .card-img-top{
+            //width:inherit;
+            height: 16rem !important;
+            object-fit:cover;
+            padding: 1rem;
+            border-radius: 2rem;
+        }
+    }
+}
+@media(min-width:$tablet){
+
+    #AboutInformation{
+        //padding-left: 3rem !important;
+
+        img{
+            display: block;
+            height: 100%;
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        }
+    }
+    
+        .blue-button{
+            margin-bottom: 0rem !important;
+            margin-top: 1rem !important;
+            
+        }
+        
+        
+        .about-information-box{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: stretch;
+            
+        }
+        .about-information-text{
+            width: 50%;
+            padding: 2rem;
+
+            
+        }
+        .about-information-img{
+            width: 50%;
+            padding: 2rem;
+
+            img{
+                
+            }
+        }
+        
+    
+    .card{
+        
+        width: 14rem !important;
+        
+        h5{
+            font-size: $small-heading !important;
+        }
+        p{
+            font-size: $large-text !important;
+            font-weight:lighter !important;
+        }
+        .card-text{
+            font-size: $medium-text !important;
+        }
+        .card-img-top{
+            height: 20rem !important ;
+            
+        }
+    }
+}
+@media(min-width:$desktop){
+    
+    .about-information-text{
+        .h5{
+            font-size: $Medium-heading !important;
+        }    
+    }
+    
+
+}
+
+@media(min-width:$desktop-large){
+    .blue-button{
+        margin-top: 6rem !important;
+        
+    }
+    .card{
+        width: 18rem !important;
+        
+    }
+}

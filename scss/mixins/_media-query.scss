@@ -1,0 +1,23 @@
+@mixin for-phone-large {
+    @media only screen and (min-width:$large-phone){
+        @content;
+    }
+}
+
+@mixin for-tablet {
+    @media only screen and (min-width:$tablet){
+        @content;
+    }
+}
+
+@mixin for-desktop {
+    @media only screen and (min-width:$desktop){
+        @content;
+    }
+}
+
+@mixin for-desktop-large {
+    @media only screen and (min-width:$desktop-large){
+        @content;
+    }
+}

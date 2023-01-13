@@ -1,0 +1,119 @@
+
+
+//      INDEX SITE
+#SLIDER{
+    width: 100%;
+    background-color: red;
+    .row{
+        background-color: #000101;
+        width: inherit;
+        
+        .slider-1{
+            
+            //TA BORT OCH BYT TILL IMG
+            background-color: $grayBackground;
+            height: 82vh;
+            // margin-bottom: 1rem;
+            position: relative;
+            z-index: 1;
+        
+            .slider-text{
+                color: white;
+                position: absolute;
+                z-index: 2;
+                bottom:10rem;
+                left: 5rem;    
+                button{
+                    margin-top: 1rem;
+                    margin-left: 0rem;
+                }
+        
+        
+        
+        
+        
+            }
+        }
+    }
+    
+}
+
+
+
+
+
+.showcase-contact-us{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    background-color: $ligghtgraybackground;
+}
+.showcase-social{
+    background-color: $primaryColor;
+    height: 5vh;
+    
+    .container{
+        height: inherit;
+        .showcase-social-links{
+            display: flex;
+            height: inherit;
+            justify-content:space-between;
+            align-items: center;
+
+            i{
+                font-size: 2rem;
+                color: rgb(205, 216, 226);
+            }
+    
+        }
+    }
+    
+}
+#whatWeDo{
+    background-color: $primaryColor;
+    height: auto;
+    color: white;
+    .smal-box-item-content{
+        border-radius: 13px;
+       background: $primaryColor;
+       box-shadow: inset 9px 9px 20px #1d465e,
+       inset -9px -9px 20px #2f7096;
+
+       // border-radius: 13px;
+       // background: #3c7190;
+       // box-shadow: inset 9px 9px 20px #2e576f,
+       // inset -9px -9px 20px #4a8bb1;
+       
+       &:hover{
+           
+           border-radius: 13px;
+           background: #265b7a;
+           box-shadow:  5px 5px 10px #1d445c,
+           -5px -5px 10px #307299;
+           .text-small{
+               // color: rgb(230, 158, 100);
+               color: $thirdColor;
+           }
+        }
+        .text-small{
+                
+            padding: 0.3rem;
+            // color: #cad5db;
+            // text-shadow: 1px -1px 4px #0a1820,-1px 1px 4px #429ed4;
+            color: #aec3cf;
+            text-shadow: 1px -1px 3px #000101,
+            -1px 1px 3px #194e6d;
+            // color: #bcd1dd;
+            font-size: 18px;
+            
+            // &:hover{
+            //     color: $thirdColor;
+                
+            // }
+    }
+    }
+}   
+
+

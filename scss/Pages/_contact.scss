@@ -1,0 +1,118 @@
+#ContactPage{
+    height: auto;
+
+    .banner{
+        height:17rem;
+          
+    }
+    
+
+}
+#Contact{
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    margin-top: -6rem;
+    margin-bottom: 2rem;
+    background: rgba(255, 255, 255, 0.89);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+
+    .text-center{
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+    }
+
+
+    .or{
+        i{
+            color: rgba(0, 0, 0, 0.767);
+        }
+    }
+    .contact-item{
+        padding: 1rem;
+        height: auto;
+
+        #ContactGoogleMap{
+            height: inherit;
+            background-color: rgb(255, 255, 255);
+            padding: 20px 10px 20px 10px;
+            //border: solid black 1px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            border-radius: 8px;
+            
+            
+            iframe{
+                border-radius: 1rem;
+            }
+            
+            .contact-information{
+                height: 12.5rem;
+                padding-left: 1rem;
+                color: rgb(26, 26, 26);
+                //border: solid 1px rgba(0, 0, 0, 0.226);
+                //border-radius: 8px;
+//              background: rgb(2,0,36);
+//              background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);   
+                 //background: rgba(14, 95, 145, 0.267);
+                //background: linear-gradient(90deg, rgba(2, 18, 28, 0.623) 0%, rgba(38, 91, 122, 0.644) 100%, rgba(154, 121, 63, 0.452) 100%);
+            }
+            p{
+                // border:  1px red solid;
+                padding: 0.5rem 0rem 3rem 0rem;
+            }
+            i{
+                font-size: 26px;
+                margin-bottom: 1.5rem;
+                color: $primaryColor;
+            }
+            
+        }
+    
+        #Contact-form{
+            height:inherit;
+            background-color: rgb(255, 255, 255);
+            padding: 20px 10px 20px 10px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            border-radius: 8px;
+            
+        }
+    }
+        
+}
+
+@media(min-width:$small-phone){
+
+}
+
+@media(min-width:$larg-phone){
+    .contact-item{
+        padding: 2rem !important;
+    }
+    #Contact-form{
+        
+        padding: 20px 50px 20px 50px !important;
+        
+    }
+    
+    #ContactGoogleMap{
+        padding: 20px 50px 20px 50px !important;
+    }
+
+}
+@media(min-width:$tablet){
+    
+
+}
+@media(min-width:$desktop){
+    
+}
+
+@media(min-width:$desktop-large){
+   
+
+}
+   

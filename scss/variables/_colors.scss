@@ -1,0 +1,35 @@
+$grayBackground:rgb(194, 194, 194);
+$ligghtgraybackground: rgb(239, 240, 239);
+
+//Primary colors
+$primaryColor:#265b7a;
+$secundaryColor:#fbda89;
+$thirdColor:#f59583;
+
+
+//Links
+$linkArrowColor:  $thirdColor;
+$linkArrowColorHover: rgb(231, 82, 62);
+$linkColor: rgb(29, 29, 29);
+$linkColorHover:rgb(0, 0, 0);
+
+
+
+//Form
+$nice-color:#dfdddd;
+$box-sh-color: 2px 2px 4px rgba(0, 0, 0,0.1);
+$fb-color: #4f70b5; 
+$validColour:green;
+$invalidColour:rgb(255, 104, 104);
+
+//gradient
+
+$backgrundColor: rgba(0, 0, 0, 0.815);
+$backgrundColorHover: $backgrundColor;
+//navbar colors tabelt & mobil
+$navbarColor: rgba(7, 7, 7, 0.89);
+$navbarHeaderColor: $thirdColor;
+$navbarLinksColor: rgb(230, 230, 230);
+//$navbarLinksHover:rgb(196, 124, 66);
+$navbarLinksHover: $thirdColor;
+$dropdownColor: $backgrundColorHover;

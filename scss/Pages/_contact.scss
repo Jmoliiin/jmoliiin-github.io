@@ -12,14 +12,19 @@
     z-index: 1;
     background-color: rgb(255, 255, 255);
     height: auto;
-    margin-top: -6rem;
+    margin-top: -9rem;
     margin-bottom: 2rem;
     background: rgba(255, 255, 255, 0.89);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
-
+    .primary-header{
+        padding-top:2rem;
+    }
+    h2{
+        font-size: 22px;
+    }
     .text-center{
         padding-left: 1rem;
         padding-right: 1rem;
@@ -89,9 +94,19 @@
 }
 
 @media(min-width:$larg-phone){
-    .contact-item{
-        padding: 2rem !important;
+    #Contact{
+        margin-top: -6rem;
+        h2{
+            font-size: 26px;
+        }
+        .contact-item{
+            padding: 2rem !important;
+        }
+        .primary-header{
+            padding-top:4rem;
+        }
     }
+    
     #Contact-form{
         
         padding: 20px 50px 20px 50px !important;
@@ -105,7 +120,11 @@
 }
 @media(min-width:$tablet){
     
-
+#Contact{
+    // .primary-header{
+    //     padding-top:6rem;
+    // }
+}
 }
 @media(min-width:$desktop){
     
@@ -113,6 +132,6 @@
 
 @media(min-width:$desktop-large){
    
-
+    
 }
    

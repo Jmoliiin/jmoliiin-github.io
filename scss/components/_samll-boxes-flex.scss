@@ -2,12 +2,21 @@
     justify-content: space-between;
    .smal-box-item{
        .smal-box-item-content{
+            border-radius: 13px;
             height: 6rem;
             width: auto;
-            margin: 0.9rem;
+            margin-bottom: 0.9rem;
+            margin-top: 0.9rem;
            
+            .text-small{
+                font-size: 14px;
+                padding: 0.3rem;
+                
+            }
            &:hover{
+            border-radius: 13px;
                .text-small{
+
                 color: $thirdColor;
                }
                
@@ -26,4 +35,35 @@
        }
        
    }
+}
+
+@media(min-width:$small-phone){
+    .smal-box{
+        .smal-box-item{
+            .smal-box-item-content{
+ 
+                
+                 .text-small{
+                     font-size: 18px;
+                    
+                }
+                
+                
+            }
+            
+        }
+     }
+}
+
+@media(min-width:$larg-phone){
+    
+}
+@media(min-width:$tablet){
+    
+}
+@media(min-width:$desktop){
+}
+
+@media(min-width:$desktop-large){
+   
 }

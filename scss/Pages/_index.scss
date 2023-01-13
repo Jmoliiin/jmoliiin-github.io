@@ -37,40 +37,21 @@
     height: auto;
     color: white;
     .smal-box-item-content{
-        border-radius: 13px;
        background: $primaryColor;
        box-shadow: inset 9px 9px 20px #1d465e,
        inset -9px -9px 20px #2f7096;
-       // border-radius: 13px;
-       // background: #3c7190;
-       // box-shadow: inset 9px 9px 20px #2e576f,
-       // inset -9px -9px 20px #4a8bb1;
-       
        &:hover{
-           border-radius: 13px;
            background: #265b7a;
            box-shadow:  5px 5px 10px #1d445c,
            -5px -5px 10px #307299;
            .text-small{
-               // color: rgb(230, 158, 100);
                color: $thirdColor;
            }
         }
-        .text-small{
-                
-            padding: 0.3rem;
-            // color: #cad5db;
-            // text-shadow: 1px -1px 4px #0a1820,-1px 1px 4px #429ed4;
+        .text-small{ 
             color: #aec3cf;
             text-shadow: 1px -1px 3px #000101,
             -1px 1px 3px #194e6d;
-            // color: #bcd1dd;
-            font-size: 18px;
-            
-            // &:hover{
-            //     color: $thirdColor;
-                
-            // }
         }
     }
 }   

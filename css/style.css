@@ -198,9 +198,6 @@ a {
   background: #265b7a;
   box-shadow: 5px 5px 10px #1d445c, -5px -5px 10px #307299;
 }
-#whatWeDo .smal-box-item-content:hover .text-small {
-  color: #f59583;
-}
 #whatWeDo .smal-box-item-content .text-small {
   color: #aec3cf;
   text-shadow: 1px -1px 3px #000101, -1px 1px 3px #194e6d;
@@ -816,8 +813,8 @@ footer .socialmedia > li i {
 }
 
 footer .copyright {
-  background-color: black;
-  color: #F8F8F8;
+  background-color: rgb(255, 255, 255);
+  color: #222222;
   border-top: 1px solid #cccccc;
   padding-top: 16px;
   padding-bottom: 16px;

@@ -98,13 +98,12 @@ a{
   color: $linkColor;
   position: relative;
   .link-arrow{
-      position:absolute;
+      // position:absolute;
       // border: solid black 1px;
       font-size: 18px;
-      
       color: $linkArrowColor;
-      bottom: 0rem;
-      left: 4.1rem;
+      // bottom: 0rem;
+      // left: 0.1rem;
       
   }
   &:hover{

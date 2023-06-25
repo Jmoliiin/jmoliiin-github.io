@@ -340,8 +340,8 @@ a {
 }
 #Team .about-box-container .card {
   margin-bottom: 1rem;
-  height: 25rem;
-  width: 10rem;
+  height: 17rem;
+  width: 14rem;
   background: rgba(255, 255, 255, 0.89);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -403,6 +403,7 @@ a {
 #AboutCompany .contentBox {
   padding: 2rem 0rem 2rem 0rem;
 }
+
 #AboutServices {
   background: #e0e0e0;
   padding-top: 3rem;
@@ -427,7 +428,7 @@ a {
 @media (min-width: 500px) {
   .card {
     width: 14rem !important;
-    height: 22rem !important;
+    height: 18rem !important;
   }
 }
 @media (min-width: 768px) {
@@ -439,8 +440,8 @@ a {
     align-items: flex-start;
   }
   .card {
-    width: 10rem !important;
-    height: 25rem !important;
+    width: 15rem !important;
+    height: 18rem !important;
   }
   .card .card-img-top {
     height: 16rem !important;

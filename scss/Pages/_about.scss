@@ -48,8 +48,8 @@
         .card{
             margin-bottom: 1rem;
             //display: inline-block;
-             height: 25rem;
-            width: 10rem ;
+            height: 17rem;
+            width: 14rem ;
             background: rgba(255, 255, 255, 0.89);
             border-radius: 16px;
             box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -82,9 +82,6 @@
 #AboutInformation{
     background-color: #265b7a05 ;
     height: auto;
-    //background-color:  #32617c2c;
-    // border: solid 1px blue; 
-    //margin-top: 2rem;
     padding:1rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -123,15 +120,6 @@
     .contentBox{
         padding: 2rem 0rem 2rem 0rem;
     }
-    .content-box{
-        
-        
-        img{
-            //!ADD boxShadow
-            //box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 80px 0px;
-        }
-        // box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-    }
 }
 
 
@@ -142,17 +130,6 @@
     .about-service-header{
         text-align: end;
     }
-    // .smal-box{
-    //     height: auto;
-    //     padding-top: 3rem;
-    //     padding-bottom: 3rem;
-    //     //border: solid 1px;
-    // }
-    // .smal-box-item{
-    //     padding:0rem;
-    //     //border: solid 1px;
-        
-    // }
     .smal-box-item-content{
     
         background: #e0e0e0;
@@ -175,7 +152,7 @@
 @media(min-width:$small-phone){
     .card{
         width: 14rem !important;
-        height: 22rem !important;
+        height: 18rem !important;
     }
 }
 
@@ -191,8 +168,8 @@
         // column-gap: 2px;
     }
     .card{
-        width: 10rem !important;
-        height: 25rem !important;
+        width: 15rem !important;
+        height: 18rem !important;
         .card-img-top{
             //width:inherit;
             height: 16rem !important;

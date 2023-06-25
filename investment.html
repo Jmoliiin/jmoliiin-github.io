@@ -20,7 +20,7 @@
     <nav class="navbar navbar-expand-xl navbar-dark fixed-top pe-1 ps-1">
 
         <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html"><img src="./images/10-removebg-preview.png"></a>
+            <a class="navbar-brand" href="./index.html"><img src="./images/10-removebg-preview.png" alt="imaha"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
                 aria-controls="offcanvasNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -28,8 +28,8 @@
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                 aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
-                    <h5 class="offcanvas-title text" id="offcanvasNavbarLabel">MENU</h5>
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                    <h5 class="offcanvas-title text" id="offcanvasNavbarLabel" lang="sv">MENY</h5>
+                    <button type="button" aria-labelledby="Navigation button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                         aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
@@ -104,23 +104,23 @@
                             </ul>
                         </li> -->
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="./index.html">
-                                Home
+                            <a class="active nav-link" aria-current="page" href="./index.html">
+                                Hem
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="active nav-link" aria-current="page" href="./investment.html">
-                                Investment Possibilities
+                            <a class="nav-link" aria-current="page" aria-label="Go to page Investment Possibilities" href="./investment.html">
+                                Investerings möjligheter
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="./about.html">
-                                About
+                            <a class="nav-link" aria-current="page" aria-label="Go to page about us" href="./about.html">
+                                Om oss
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link contact-text" aria-current="page" href="./contact.html">
-                                Contact
+                            <a class="nav-link contact-text" aria-current="page" aria-label="Go to page Contact us" href="./contact.html">
+                                Kontakta
                             </a>
                         </li>
                     </ul>
@@ -131,8 +131,9 @@
     <div id="Investment">
         <div class="container">
                 <div class="textBlack text-center about-information-header">
-                    INVESTMENT
-                    <p class="text-orange">POSSIBILITIES</p>
+                    <!-- INVESTMENT -->
+                    INVESTERING
+                    <p class="text-orange">INVESTERINGSMÖJLIGHETER</p>
                 </div>
                 <div class="about-information-box">
                     <div class="about-information-text pb-3">
@@ -163,7 +164,7 @@
                           <p class="mb-4">
                             Kontakta oss idag för att få mer information om investeringsmöjligheter och bli en del av vår spännande resa inom automationsindustrin. Tillsammans kan vi forma framtiden och skapa en framgångsrik och hållbar verksamhet.
                           </p>
-                          <button class="blue-button" role="button"><a href="./contact.html">Contact</a></button>
+                          <button class="blue-button" role="button"><a href="./contact.html">Kontakta oss</a></button>
                      </div>
                      
                 </div>  
@@ -218,21 +219,21 @@
             <div class="row">
                 <div class="col-6 col-sm-4 center-box">
                     <div>
-                        <h1>Customer Service</h1>
+                        <h1>Aiiotec </h1>
                         <ul class="">
-                        <li><a href="#">Help & FAQs</a></li>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <!-- <li><a href="#">Help & FAQs</a></li> -->
+                        <li><a href="#">Om oss</a></li>
+                        <li><a href="#">Kontakta oss</a></li>
                     </ul>
                     </div>
                 </div>            
                 <div class="col-6 col-sm-4 center-box">
                     <div>
-                        <h1>Aiotec Adress</h1>
+                        <h1>Adress</h1>
                     <ul>
-                        <li><a href="#">gata</a></li>
-                        <li><a href="#">någonting</a></li>
-                        <li><a href="#">någonting</a></li>
+                        <li><a aria-label="googlemap" href="https://goo.gl/maps/YBmv4G7Q61KKDHyB7">Högan 5006,71691 Fjugesta, Örebro</a></li>
+                        <!-- <li><a href="#">71691 Fjugesta</a></li>
+                        <li><a href="#">Örebro</a></li> -->
                     </ul>
                     </div>
                 </div>            
@@ -246,11 +247,11 @@
                 <div class="col-12 col-sm-4 center-box">
                     <div>
                         <ul class="socialmedia">
-                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                            <li><a href="https://www.instagram.com/aiio.tec/?next=%2Faiotechdo%2F"><i class="fa-brands fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-google"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                            <!-- <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li> -->
+                            <li><a href="https://www.instagram.com/aiio.tec/?next=%2Faiotechdo%2F" aria-label="Go to our instagram page"><i class="fa-brands fa-instagram"></i></a></li>
+                            <!-- <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li> -->
+                            <!-- <li><a href="#"><i class="fa-brands fa-google"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li> -->
                         </ul>
                     </div>
                 </div>            

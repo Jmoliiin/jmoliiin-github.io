@@ -10,9 +10,15 @@ function minValue(str, minValue) {
 
 //! FIX SO THAT NUMBER ONLT APPLAY , BUT HOW MNY NUMBER AS POSIBLE
 function inputPhonNumber(str) {
-  const r = /\b\d{5,15}\b/g;
+  const regex = /^\+?\d{2}\d{8,}$/; // Regex för att kolla om det finns minst 10 siffror
 
-  if (r.test(str)) return true;
+  const strWithoutSpaces = str.replace(/\s+/g, "");
+
+  if (regex.test(strWithoutSpaces)) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 function inputText(str) {

@@ -11,7 +11,7 @@ function minValue(str,minValue){
 
 //! FIX SO THAT NUMBER ONLT APPLAY , BUT HOW MNY NUMBER AS POSIBLE
 function inputPhonNumber(str){
-    const r = /\b\d{9,15}\b/g;
+    const r = /\b\d{5,15}\b/g;
 
     if( r.test(str)) 
         return true     

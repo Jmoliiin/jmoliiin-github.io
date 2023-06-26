@@ -35,6 +35,10 @@
   }
   .text-orange{
     color: $thirdColor;
+    word-wrap:break-word;
+  }
+  .text-orange--responsive{
+    font-size: 16px;
   }
   .text-yellow{
     color: $secundaryColor;
